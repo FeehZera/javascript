@@ -1,0 +1,11 @@
+Js é orientado a objeto
+
+--Operadores aritméticos (+, -, *, /, %, **,)
+
+--
+
+--
+
+--
+
+--
