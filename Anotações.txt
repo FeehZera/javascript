@@ -78,5 +78,27 @@ x = x - 1 -------------- x--
 
 ---------------------------------------Condições-----------------------------------------------
 
---- if (condição)
---- else / senão
+    --- if (condição)                           CONDIÇÕES
+    --- else / senão                            ---SIMPLES if (condição) {}
+                                                ---COMPOSTA if (condição) {} else {}
+
+----------------------------------------Condição Multipla----------------------------------
+
+--- switch (expressão) {
+    case valor 1:
+            Bloco
+        break
+
+    case valor 2:
+            Bloco
+        break
+
+    case valor 3:
+            Bloco
+        break
+
+    default:
+        break       
+}
+
+-------------------------------------------
