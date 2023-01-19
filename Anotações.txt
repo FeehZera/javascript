@@ -114,3 +114,29 @@ x = x - 1 -------------- x--
 --- for (inicio;teste;incr) {
     
 }
+
+---------------------------------------ARRAY / VETORES-----------------------------------------------
+
+--- "UM ARRAY OU UM VETOR OU UMA VARIAVEL COMPOSTA É UMA VARIAVEL QUE TEM VARIOS ELEMENTOS, CADA ELEMENTO É COMPOSTO POR SEU VALOR E POR UMA CHAVE DE IDENTIFICAÇÃO !!!"
+
+--- [] array / vetor
+
+- let num = [5,8,4]
+
+- num[3] = 6
+
+- num.push(7) --- COMANDO PARA ADICIONAR UM VALOR A ULTIMA CASA DO ARRAY IDEPEDENTE QUAL ELA SEJA !!!
+
+    num
+    [5,8,4,6,7]
+     | | | | |
+     0 1 2 3 4
+
+- num.length --- COMANDO PARA SABER O COMPRIMENTO DO ARRAY !!!
+
+- num.sort() --- COMANDO PARA DEIXAR OS ELEMENTOS DOS ARRAY EM ORDEM CRESCENTE !!!
+
+    num
+    [4,5,6,7,8]
+     | | | | |
+     0 1 2 3 4
