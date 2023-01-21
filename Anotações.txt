@@ -142,3 +142,16 @@ x = x - 1 -------------- x--
      0 1 2 3 4
 
 - num.indexOf(7) --- COMANDO PARA ACHAR VALORES DENTRO DOS VETORES !!!
+
+---------------------------------------Funções avançadas---------------------------------------------
+
+--- function ação(parametros) {
+
+        Bloco
+    --- return res ---RUTERN É USADO PARA DAR RETORNO DE UM RESULTADO APÓS O FUNCIONAMENTO DA FUNCTION !!!
+}
+
+--- ação(5) --- CHAMAR A FUNÇÃO !!!
+
+--------------------------------------
+ 
