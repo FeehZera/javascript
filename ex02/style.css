@@ -24,7 +24,7 @@ header > h1{
 }
 main{
     background-color: darkslategrey;
-    width: 50%;
+    width: 700px;
     height: 700px;
     margin: auto;
     margin-top: 5%;
@@ -33,7 +33,7 @@ main{
     box-shadow: 3px 3px 20px black;
 }
 #box1{
-    
+
 }
 #box2{
 
