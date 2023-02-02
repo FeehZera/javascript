@@ -33,10 +33,31 @@ main{
     box-shadow: 3px 3px 20px black;
 }
 #box1{
-
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
+}
+input{
+    
+    text-align: center;
+}
+#ida{
+    margin-top: 20px;
+}
+#ida > input{
+    margin-top: 20px;
+}
+#sub > input{
+    background-color: green;
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px black;
 }
 #box2{
-
+    background-color: blue;
 }
 footer{
     background-color: black;
