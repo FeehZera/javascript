@@ -7,7 +7,7 @@ for (let pos = 0 ; pos < num.length; pos++) {
 */
 console.log('---------------------------------------------------')
 
-//for, Versdao amis simplificado para js
+//for, Versão mais simplificado para js
 
 for (let pos in num) {
     console.log(`A posição ${pos} tem o valor: ${num[pos]}`)

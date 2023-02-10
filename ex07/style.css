@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*, ::before, ::after{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -32,18 +32,7 @@ main{
     position: relative;
 }
 /*----------------------------------------------------------------------------*/
-#box1, #but{
-    text-align: center;
-    display: inline;
-    font-size: 2em;
-}
-#box1{
-    margin-left: 100px;
-}
-#box2, select, option{
-    text-align: center;
-    font-size: 1.2em;
-}
+
 /*----------------------------------------------------------------------------*/
 footer{
     width: 100%;
