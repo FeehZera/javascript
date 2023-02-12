@@ -1,17 +1,17 @@
-let num = document.querySelector('input#fnum')
-let lista = document.querySelector('selected#flista')
-let res = document.querySelector('div#res')
+let num = document.getElementById("fnum")
+let lista = document.getElementById("flista")
+let res = document.getElementById("res")
 let valores = []
 
 function adicionar() {
     if( isNumero(num.value) && !inLista(num.value, valores)){
     } else {
-    window.alert('invalido')
+        alert("invalido")
     }
 }
 
 function isNumero(n) {
-    if(Number(n) >= 1 &&  Number(n) <= 100) {
+    if (Number(n) >= 1 && Number(n) <= 100) {
         return true
     } else {
         return false
@@ -19,10 +19,9 @@ function isNumero(n) {
 }
 
 function inLista(n, l) {
-    if(l.indexOf(Number(n)) != -1) {
+    if (l.indexOf(Number(n)) != -1) {
         return true
     } else {
         return false
     }
-
 }
